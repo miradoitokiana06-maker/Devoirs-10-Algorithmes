@@ -1,0 +1,94 @@
+1-Algorithme SurfaceRectangle
+Variables L, l, S : réel
+
+Début
+     Lire L
+     Lire l
+     S ← L * l
+     Afficher S
+Fin 
+
+2-Algorithme PerimetreRectangle
+Variables L, l, P : réel
+
+Début
+     Lire L
+     Lire l
+     P ← 2 * (L + l)
+     Afficher P
+Fin
+
+3-Algorithme AireTriangle
+Variables b, h, A : réel
+
+Début
+     Lire b
+     Lire h
+     A ← (b * h) / 2
+     Afficher A
+Fin
+
+4-Algorithme AireCarre
+Variables c, A : réel
+
+Début
+     Lire c
+     A ← c * c
+     Afficher A
+Fin
+
+5-Algorithme PerimetreCarre
+Variables c, P : réel
+
+Début
+     Lire c
+     P ← 4 * c
+     Afficher P
+Fin
+
+6-Algorithme AireCercle
+Variables r, A : réel
+
+Début
+     Lire r
+     A ← 3.14 * r * r
+     Afficher A
+Fin
+
+7-Algorithme PerimetreCercle
+Variables r, P : réel
+
+Début
+     Lire r
+     P ← 2 * 3.14 * r
+     Afficher P
+Fin
+
+8-Algorithme MoyenneDeuxNombres
+Variables a, b, m : réel
+
+Début
+     Lire a
+     Lire b
+     m ← (a + b) / 2
+     Afficher m
+Fin
+
+9-Algorithme Produit
+Variables a, b, p : réel
+
+Début
+     Lire a
+     Lire b
+     p ← a * b
+     Afficher p
+Fin
+
+10-Algorithme VolumeCube
+Variables c, V : réel
+
+Début
+     Lire c
+     V ← c * c * c
+     Afficher V
+Fin
