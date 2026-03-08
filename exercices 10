@@ -2,7 +2,9 @@
 Variables L, l, S : réel
 
 Début
+     Afficher "Entrez la valeur de L"
      Lire ("L")
+     Afficher "Entrez la valeur de l"
      Lire ("l")
      S ← L * l
      Afficher ("S")
@@ -12,7 +14,9 @@ Fin
 Variables L, l, P : réel
 
 Début
+     Afficher "Entrez la valeur de L"
      Lire ("L")
+     Afficher "Entrez la valeur de l"
      Lire ("l")
      P ← 2 * (L + l)
      Afficher ("P")
@@ -21,8 +25,10 @@ Fin
 3-Algorithme AireTriangle
 Variables b, h, A : réel
 
-Début
+Début 
+     Afficher "Entrez la valeur de b"
      Lire ("b")
+     Afficher "Entrez la valeur de h"
      Lire ("h")
      A ← (b * h) / 2
      Afficher ("A")
@@ -32,6 +38,7 @@ Fin
 Variables c, A : réel
 
 Début
+     Afficher "Entrez la valeur de c"
      Lire ("c")
      A ← c * c
      Afficher ("A")
@@ -41,6 +48,7 @@ Fin
 Variables c, P : réel
 
 Début
+     Afficher "la valeur de c"
      Lire ("c")
      P ← 4 * c
      Afficher ("P")
@@ -50,6 +58,7 @@ Fin
 Variables r, A : réel
 
 Début
+     Afficher "Entrez la valeur de r"
      Lire ("r")
      A ← 3.14 * r * r
      Afficher ("A")
@@ -59,6 +68,7 @@ Fin
 Variables r, P : réel
 
 Début
+     Afficher "Entrez la valeur de r"
      Lire ("r")
      P ← 2 * 3.14 * r
      Afficher ("P")
@@ -68,7 +78,9 @@ Fin
 Variables a, b, m : réel
 
 Début
+     Afficher "Entrez la valeur de a"
      Lire ("a")
+     Afficher "Entrez la valeur de b"
      Lire ("b")
      m ← (a + b) / 2
      Afficher ("m")
@@ -78,7 +90,9 @@ Fin
 Variables a, b, p : réel
 
 Début
+     Afficher "Entrez la valeur de a"
      Lire ("a")
+     Afficher "Entrez la valeur de b"
      Lire ("b")
      p ← a * b
      Afficher ("p")
@@ -87,7 +101,8 @@ Fin
 10-Algorithme VolumeCube
 Variables c, V : réel
 
-Début
+Début 
+     Afficher "Entrez la valeur de c"
      Lire ("c")
      V ← c * c * c
      Afficher ("V")
