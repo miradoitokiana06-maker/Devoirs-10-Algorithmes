@@ -2,93 +2,93 @@
 Variables L, l, S : réel
 
 Début
-     Lire L
-     Lire l
+     Lire ("L")
+     Lire ("l")
      S ← L * l
-     Afficher S
+     Afficher ("S")
 Fin 
 
 2-Algorithme PerimetreRectangle
 Variables L, l, P : réel
 
 Début
-     Lire L
-     Lire l
+     Lire ("L")
+     Lire ("l")
      P ← 2 * (L + l)
-     Afficher P
+     Afficher ("P")
 Fin
 
 3-Algorithme AireTriangle
 Variables b, h, A : réel
 
 Début
-     Lire b
-     Lire h
+     Lire ("b")
+     Lire ("h")
      A ← (b * h) / 2
-     Afficher A
+     Afficher ("A")
 Fin
 
 4-Algorithme AireCarre
 Variables c, A : réel
 
 Début
-     Lire c
+     Lire ("c")
      A ← c * c
-     Afficher A
+     Afficher ("A")
 Fin
 
 5-Algorithme PerimetreCarre
 Variables c, P : réel
 
 Début
-     Lire c
+     Lire ("c")
      P ← 4 * c
-     Afficher P
+     Afficher ("P")
 Fin
 
 6-Algorithme AireCercle
 Variables r, A : réel
 
 Début
-     Lire r
+     Lire ("r")
      A ← 3.14 * r * r
-     Afficher A
+     Afficher ("A")
 Fin
 
 7-Algorithme PerimetreCercle
 Variables r, P : réel
 
 Début
-     Lire r
+     Lire ("r")
      P ← 2 * 3.14 * r
-     Afficher P
+     Afficher ("P")
 Fin
 
 8-Algorithme MoyenneDeuxNombres
 Variables a, b, m : réel
 
 Début
-     Lire a
-     Lire b
+     Lire ("a")
+     Lire ("b")
      m ← (a + b) / 2
-     Afficher m
+     Afficher ("m")
 Fin
 
 9-Algorithme Produit
 Variables a, b, p : réel
 
 Début
-     Lire a
-     Lire b
+     Lire ("a")
+     Lire ("b")
      p ← a * b
-     Afficher p
+     Afficher ("p")
 Fin
 
 10-Algorithme VolumeCube
 Variables c, V : réel
 
 Début
-     Lire c
+     Lire ("c")
      V ← c * c * c
-     Afficher V
+     Afficher ("V")
 Fin
