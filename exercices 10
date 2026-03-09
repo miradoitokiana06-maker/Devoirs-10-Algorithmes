@@ -2,10 +2,10 @@
 Variables L, l, S : réel
 
 Début
-     Afficher "Entrez la valeur de L"
-     Lire ("L")
-     Afficher "Entrez la valeur de l"
-     Lire ("l")
+     Afficher ("Entrez la valeur de L:")
+     Lire (L)
+     Afficher ("Entrez la valeur de l:")
+     Lire (l)
      S ← L * l
      Afficher ("S")
 Fin 
@@ -14,10 +14,10 @@ Fin
 Variables L, l, P : réel
 
 Début
-     Afficher "Entrez la valeur de L"
-     Lire ("L")
-     Afficher "Entrez la valeur de l"
-     Lire ("l")
+     Afficher ("Entrez la valeur de L:")
+     Lire (L)
+     Afficher ("Entrez la valeur de l:")
+     Lire (l)
      P ← 2 * (L + l)
      Afficher ("P")
 Fin
@@ -26,10 +26,10 @@ Fin
 Variables b, h, A : réel
 
 Début 
-     Afficher "Entrez la valeur de b"
-     Lire ("b")
-     Afficher "Entrez la valeur de h"
-     Lire ("h")
+     Afficher ("Entrez la valeur de b:")
+     Lire (b)
+     Afficher ("Entrez la valeur de h:")
+     Lire (h)
      A ← (b * h) / 2
      Afficher ("A")
 Fin
@@ -38,8 +38,8 @@ Fin
 Variables c, A : réel
 
 Début
-     Afficher "Entrez la valeur de c"
-     Lire ("c")
+     Afficher ("Entrez la valeur de c:")
+     Lire (c)
      A ← c * c
      Afficher ("A")
 Fin
@@ -48,8 +48,8 @@ Fin
 Variables c, P : réel
 
 Début
-     Afficher "la valeur de c"
-     Lire ("c")
+     Afficher ("la valeur de c:")
+     Lire (c)
      P ← 4 * c
      Afficher ("P")
 Fin
@@ -58,8 +58,8 @@ Fin
 Variables r, A : réel
 
 Début
-     Afficher "Entrez la valeur de r"
-     Lire ("r")
+     Afficher ("Entrez la valeur de r:")
+     Lire (r)
      A ← 3.14 * r * r
      Afficher ("A")
 Fin
@@ -68,8 +68,8 @@ Fin
 Variables r, P : réel
 
 Début
-     Afficher "Entrez la valeur de r"
-     Lire ("r")
+     Afficher ("Entrez la valeur de r:")
+     Lire (r)
      P ← 2 * 3.14 * r
      Afficher ("P")
 Fin
@@ -78,10 +78,10 @@ Fin
 Variables a, b, m : réel
 
 Début
-     Afficher "Entrez la valeur de a"
-     Lire ("a")
-     Afficher "Entrez la valeur de b"
-     Lire ("b")
+     Afficher ("Entrez la valeur de a:")
+     Lire (a)
+     Afficher "Entrez la valeur de b:"
+     Lire (b)
      m ← (a + b) / 2
      Afficher ("m")
 Fin
@@ -90,10 +90,10 @@ Fin
 Variables a, b, p : réel
 
 Début
-     Afficher "Entrez la valeur de a"
-     Lire ("a")
-     Afficher "Entrez la valeur de b"
-     Lire ("b")
+     Afficher ("Entrez la valeur de a:")
+     Lire (a)
+     Afficher "Entrez la valeur de b:"
+     Lire (b)
      p ← a * b
      Afficher ("p")
 Fin
@@ -102,8 +102,8 @@ Fin
 Variables c, V : réel
 
 Début 
-     Afficher "Entrez la valeur de c"
-     Lire ("c")
+     Afficher ("Entrez la valeur de c:")
+     Lire (c)
      V ← c * c * c
      Afficher ("V")
 Fin
